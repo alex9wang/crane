@@ -1,0 +1,11 @@
+.tree_child{
+	font-family:dotum;
+	font-size:13px;
+}
+.tree_img{
+	border:0;
+}
+A.tree_anchor:visited {color:#333344; text-decoration: none}
+A.tree_anchor:link {color:#333344; text-decoration: none}
+A.tree_anchor:active {color:#333344; text-decoration: none}
+A.tree_anchor:hover {color:#6600FF; text-decoration: none}

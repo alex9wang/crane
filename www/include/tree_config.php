@@ -1,0 +1,10 @@
+<?php
+	$table_name="apt_menus";
+	$node_id="menu_id";
+	$node_name="menu_name";
+	$node_desc="menu_url";
+	$node_pid="parent_id";
+	$node_sort="menu_order";
+	$node_type="visible";
+	$node_type_value="yes";
+?>

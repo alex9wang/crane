@@ -1,0 +1,105 @@
+body { background-color:#ffffff; }
+body, td { font-size:12px; margin:0px; padding:0px; font-family:,gulim,sans-serif; color:#333333; }
+img { border: 0px }
+form, p, iframe { margin:0px; padding:0px }
+.fl { float:left } .fr { float:right }
+.b { font-weight:bold; }
+a:link{text-decoration:none;} a:visited{text-decoration:none;} a:hover{text-decoration:underline;}
+a{color:#333333; line-height:130%; }
+ul,li,dl,dt,dd	{ list-style:none; margin:0px; padding:0px; } 
+h1 { font-size:16px; margin:0px; letter-spacing:-2px; }
+h2 { font-size:14px; margin:0px; letter-spacing:-1px; }
+h3 { font-size:12px; margin:0px; }
+h4 { font-size:13px; margin:0px; }
+h5 { font-size:18px; margin:0px; letter-spacing:-2px; }
+
+A:link{font-family:; font-size:9pt; color:333333; text-decoration:none; line-height: 130%;}
+A:visited{font-family:; font-size:9pt; color:333333; text-decoration:none; line-height: 130%;}
+A:active{font-family:; font-size:9pt; color:333333; text-decoration:none; line-height: 130%;}
+A:hover{font-family:; font-size:9pt; color:333333; text-decoration:none; line-height: 130%;TEXT-DECORATION: underline}
+
+A.gray_blue02:link{FONT-SIZE: 9pt;COLOR: #101010;LINE-HEIGHT: 120%;FONT-FAMILY: "","Gulim", "ms sans serif";TEXT-DECORATION: none}
+A.gray_blue02:visited{FONT-SIZE: 9pt;COLOR: #7C7C7C;LINE-HEIGHT: 120%;FONT-FAMILY: "","Gulim", "ms sans serif";TEXT-DECORATION: none}
+A.gray_blue02:hover{FONT-SIZE: 9pt;COLOR: #006699;LINE-HEIGHT: 120%;FONT-FAMILY: "","Gulim", "ms sans serif";TEXT-DECORATION: underline}
+
+.list_basis:link{FONT-FAMILY: ;FONT-SIZE: 9pt;COLOR: #333333;TEXT-DECORATION: none;padding:2 0 0 0;}
+.list_basis:visited{FONT-FAMILY: ;FONT-SIZE: 9pt;COLOR: #333333;TEXT-DECORATION: none;padding:2 0 0 0;}
+.list_basis:hover{FONT-FAMILY: ;FONT-SIZE: 9pt;COLOR: #3366CC;TEXT-DECORATION: underline;padding:2 0 0 0;}
+#FocusinPhoto .plist { float:left; width:101px; text-align:center; padding-bottom:10px; }
+#FocusinPhoto h3 a { color:#3DB1AE; }
+#FocusinPhoto p a { color:#666666; }
+
+body { background-color:#ffffff; }
+body, td { font-size:12px; margin:0px; padding:0px; font-family:,gulim,sans-serif; color:#333333; }
+img { border: 0px }
+form, p, iframe { margin:0px; padding:0px }
+.fl { float:left } .fr { float:right }
+.b { font-weight:bold; }
+a:link{text-decoration:none;} a:visited{text-decoration:none;} a:hover{text-decoration:underline;}
+a{color:#333333; line-height:130%; }
+ul,li,dl,dt,dd	{ list-style:none; margin:0px; padding:0px; } 
+h1 { font-size:16px; margin:0px; letter-spacing:-2px; }
+h2 { font-size:14px; margin:0px; letter-spacing:-1px; }
+h3 { font-size:12px; margin:0px; }
+h4 { font-size:13px; margin:0px; }
+h5 { font-size:18px; margin:0px; letter-spacing:-2px; }
+
+/* paging */
+#Paging { text-align:center; border-top:#BFAFA2 solid 1px; padding-top:15px; clear:both; }
+#Paging div.Narea { text-align:center; display:inline; padding:3px 8px 1px 8px; border-right:#DEDEDE solid 1px; }
+#Paging .cPage { color:#FF741C; font-weight:bold; }
+#Paging .cPage_gr { color:#9AB712; font-weight:bold; }
+#Paging a.Pmove { color:#3F3F3F; }
+
+#PageList { text-align:right; margin-top:15px; }
+#PageList .bar, #MIZ #PageListBt .bar { font-size:11px; color:#c2c2c2; font-family:,Dotum,AppleGothic,sans-serif; padding:0 4px; }
+#PageListBt { text-align:right; padding-top:10px; border-top:#BFAFA2 solid 2px; }
+
+/*baby*/
+.gbbsTit { background:url(../images/health/cook_photo_bg01.gif) no-repeat; width:545px; height:7px; clear:both; } /* ̹ */
+.gbbsTit3 { background:url(../images/health/list_topbg02.gif) no-repeat; width:545px; height:8px; } /* ϴ̹2 */
+.FocusinPhoto { clear:both; background:url(../images/health/list_topbg03.gif) repeat-y; width:515px; padding:10px 20px 0 20px; }
+#explain { float:left; width:360px; }
+
+#ContentsLST { width:545px; margin-top:20px; }
+#ContentsLST .LstExp_noimg { padding:3px 0 0 12px; float:left; }
+#ContentsLST .LstExp { padding:3px 0 0 10px; float:left; width:390px; }
+#ContentsLST h4 a { color:#9AB712; }
+#ContentsLST .line { border-top:#EDEDED solid 1px; margin-bottom:15px; }
+
+#CF { width:545px; float:left; margin-left:12px; padding-bottom:40px; }
+#C_upper { margin-top:6px; }
+
+/* food  */
+.f_title {font-size:16px; color:#389561; font-weight:bold; font-family:dotum;}
+.f_con {line-height: 150%; font-size:14px; font-family:batang; text-align:justify;}
+.f_body {font-size:16px; padding-top:5px; font-family:dotum; font-size:12px; line-height:150%; text-align:justify;}
+
+
+/* travel */
+.bbs   {line-height:160%; color:#646464; }
+.bbsb   {line-height:160%; font-size:13px;  color:#545454}
+.cyan   { color:#3399CC; }
+.gray { color:#999999; }
+.white { color:#ffffff; }
+.orange { color:#EF8E31; }
+.green  { color:#00B509; }
+.lam { color:#008FA9; }
+.black { color:#111111; }
+.ye { color:#FFC438; }
+.which { color:#cccccc; }
+.line { color:#79CAEA; }
+A.change1:link {
+	FONT-SIZE: 12px; COLOR: black; TEXT-DECORATION: none
+}
+A.change1:visited {
+	FONT-SIZE: 12px; COLOR: black; TEXT-DECORATION: none
+}
+A.change1:hover {
+	FONT-SIZE: 12px; COLOR: #0880fb; TEXT-DECORATION: none
+}
+
+
+
+
+

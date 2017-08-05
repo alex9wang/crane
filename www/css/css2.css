@@ -1,0 +1,741 @@
+@CHARSET "UTF-8";
+
+/* --- fwt_freewebsite.css --- */
+
+#fwtFreeWebsite {
+font: 16px Arial;
+width: 100%;
+}
+#fwtFreeWebsite ul {
+display:block;
+list-style:none;
+margin:0;
+min-height:0;
+padding: 10px 0 10px;
+overflow: hidden;
+}
+#fwtFreeWebsite ul li {
+float:left;
+margin:0 10px 10px 10px;
+}
+#fwtFreeWebsite ul li img {
+-moz-box-shadow:0 0 5px #888;
+-webkit-box-shadow:0 0 5px;
+border:1px solid #fff;
+box-shadow:0 0 5px #888; -webkit-box-shadow: 0 0 5px #888; -moz-box-shadow: 0 0 5px #888; -khtml-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px #888; -moz-box-shadow: 0 0 5px #888; -khtml-box-shadow: 0 0 5px #888;
+}
+#fwtFreeWebsite ul li a {
+color:#000;
+display:block;
+font-family:Arial;
+font-size:.9em;
+padding:3px 0;
+position:relative;
+text-align:center;
+text-decoration:none;
+width:220px;
+}
+#fwtFreeWebsite ul li img {
+border: none;
+}
+#fwtFreeWebsite ul li a {
+padding: 0;
+}
+#fwtFreeWebsite .header {
+display:inline-block;
+padding-top: 30px;
+width:100%;
+}
+#fwtFreeWebsite .logo {
+background:url('styles/custom/fwt/wix/wix-logo.jpg') no-repeat;
+display:block;
+float:left;
+height:36px;
+margin-bottom:20px;
+margin-left:10px;
+width:136px;
+}
+#fwtFreeWebsite .navigation {
+display:inline-block;
+float:right;
+margin:10px 10px 0 0;
+padding:0;
+list-style:none;
+}
+#fwtFreeWebsite .navigation li {
+float:left;
+line-height:36px;
+}
+#fwtFreeWebsite .navigation a {
+color:#3c4b52;
+padding:0 20px;
+text-decoration:none;
+width:auto;
+}
+#fwtFreeWebsite .description {
+border:1px solid #c0d7df;
+border-bottom:0;
+border-top-left-radius:15px; -webkit-border-top-left-radius:15px; -moz-border-radius-topleft:15px; -khtml-border-top-left-radius:15px; -webkit-border-top-left-radius:15px; -moz-border-radius-topleft:15px; -khtml-border-top-left-radius:15px;
+border-top-right-radius:15px; -webkit-border-top-right-radius:15px; -moz-border-radius-topright:15px; -khtml-border-top-right-radius:15px; -webkit-border-top-right-radius:15px; -moz-border-radius-topright:15px; -khtml-border-top-right-radius:15px;
+clear:both;
+height:79px;
+padding:20px;
+width:918px;
+}
+#fwtFreeWebsite .description a {
+background:url('../img/interface.gif') no-repeat -244px 0;
+float:right;
+height:70px;
+margin-right:10px;
+width:225px;
+}
+#fwtFreeWebsite .description h1 {
+color:#034c8a;
+font-family:arial;
+font-size:2.3em;
+font-weight:400;
+line-height:65px;
+margin:0;
+}
+#fwtFreeWebsite .description h2.wix {
+color:#0094f8;
+font-family:arial;
+font-size:2.3em;
+font-weight:400;
+line-height:65px;
+margin:0;
+}
+#fwtFreeWebsite .description h3 {
+color:#000;
+font-size:1.3em;
+font-weight:400;
+padding:10px 0;
+}
+#fwtFreeWebsite .description p {
+color:#3e4b51;
+font-size:.91em;
+font-weight:700;
+line-height:25px;
+padding:10px 0;
+text-transform:uppercase;
+width:700px;
+}
+#fwtFreeWebsite .body {
+border-bottom:0;
+border-top:0;
+position:relative;
+margin-bottom: 122px;
+}
+#fwtFreeWebsite #featured {
+background:url('../img/pattern.gif') repeat;
+border-left:1px solid #c0d7df;
+border-right:1px solid #c0d7df;
+padding:20px 3px 10px 3px;
+position:relative;
+}
+#fwtFreeWebsite #featured h2 {
+font-family:arial;
+font-size:1.6em;
+font-weight:400;
+height:50px;
+line-height:50px;
+margin:0 0 10px;
+padding-left:10px;
+text-transform:uppercase;
+}
+#fwtFreeWebsite #featured h3 {
+color:#323232;
+padding:10px;
+}
+#fwtFreeWebsite #featured .templates {
+display:inline-block;
+/*margin: 0 auto 0 -1px;*/
+padding:0;
+/*width:960px;*/
+list-style:none;
+}
+#fwtFreeWebsite #featured .templates li {
+float:left;
+height:176px;
+margin: 10px 9px;
+position:relative;
+width:220px;
+}
+#fwtFreeWebsite #featured .detail {
+background:url('../img/bg-price.gif') repeat-x;
+border:1px solid #bdbbbc;
+font-family:arial;
+height:37px;
+left:-1px;
+line-height:37px;
+padding:0 10px;
+position:absolute;
+width:200px;
+font-size: 1em;
+text-align: left;
+bottom: -3px;
+}
+#fwtFreeWebsite #featured .detail span {
+background:url('../img/interface.gif') no-repeat -821px 0;
+display: block;
+float: right;
+height: 30px;
+margin-top: 4px;
+padding: 0;
+position: absolute;
+right: 9px;
+top: 0;
+width: 81px;
+}
+#fwtFreeWebsite #featured .checkbox {
+display:inline-block;
+padding:5px 0;
+/*width:960px;*/
+list-style:none;
+}
+#fwtFreeWebsite #featured .checkbox li {
+background:url('../img/icons.gif') no-repeat 0 -20px;
+float:left;
+font-family:arial;
+height: 19px; /* @todo: change the checkbox image: no fixed height ... */
+margin:0 10px 0 9px;
+padding-left:16px;
+}
+#fwtFreeWebsite #featured .more {
+background:url('../img/interface.gif') no-repeat;
+color:#545454;
+display:block;
+font-family:arial;
+font-size:.8em;
+font-weight:700;
+height:46px;
+line-height:18px;
+padding:7px 0 0;
+position:absolute;
+right:20px;
+text-align:center;
+text-decoration:none;
+top:20px;
+width:121px;
+}
+#fwtFreeWebsite #featured .more:hover {
+background:url('../img/interface.gif') no-repeat -122px 0;
+color:#7c7878;
+}
+#fwtFreeWebsite #features {
+border-left:1px solid #c0d7df;
+border-right:1px solid #c0d7df;
+font-family:arial;
+padding-bottom:40px;
+}
+#fwtFreeWebsite #features h2 {
+color:#0297fd;
+font-size:1.5em;
+font-weight:400;
+margin:0;
+padding:20px 0 5px;
+}
+#fwtFreeWebsite #features .details {
+padding:0;
+}
+#fwtFreeWebsite #features li {
+display:inline-block;
+height:120px;
+margin:0 0 10px;
+padding:0 20px;
+width:918px;
+}
+#fwtFreeWebsite #features img {
+-moz-box-shadow:0 0 0 transparent;
+-webkit-box-shadow:0 0 0 transparent;
+border:0;
+box-shadow:0 0 0 transparent; -webkit-box-shadow: 0 0 0 transparent; -moz-box-shadow: 0 0 0 transparent; -khtml-box-shadow: 0 0 0 transparent; -webkit-box-shadow: 0 0 0 transparent; -moz-box-shadow: 0 0 0 transparent; -khtml-box-shadow: 0 0 0 transparent;
+float:left;
+height:120px;
+width:262px;
+}
+#fwtFreeWebsite #features p {
+color:#4b4b4b;
+line-height:25px;
+margin:0;
+width:auto;
+}
+#fwtFreeWebsite #features strong {
+text-transform:uppercase;
+font-weight: bolder;
+}
+#fwtFreeWebsite #features ul.details li p a {
+color:#0297fd;
+display:inline;
+font-size:12pt;
+margin-left:0;
+padding:0;
+position:static;
+text-align:left;
+text-decoration:underline;
+}
+#fwtFreeWebsite #designs {
+border-left:1px solid #c0d7df;
+border-right:1px solid #c0d7df;
+height:413px;
+position:relative;
+}
+#fwtFreeWebsite #designs ul {
+display:inline-block;
+width:958px;
+padding:0;
+margin:0;
+height: auto;
+list-style:none;
+}
+#fwtFreeWebsite #designs li {
+float:left;
+margin:0 8px 10px;
+text-align:center;
+width:222px;
+}
+#fwtFreeWebsite #designs li:first-child {
+margin-left:12px;
+}
+#fwtFreeWebsite #designs img {
+-moz-box-shadow:0 0 0 transparent;
+-webkit-box-shadow:0 0 0 transparent;
+border:0;
+box-shadow:0 0 0 transparent; -webkit-box-shadow: 0 0 0 transparent; -moz-box-shadow: 0 0 0 transparent; -khtml-box-shadow: 0 0 0 transparent; -webkit-box-shadow: 0 0 0 transparent; -moz-box-shadow: 0 0 0 transparent; -khtml-box-shadow: 0 0 0 transparent;
+margin-bottom:10px;
+}
+#fwtFreeWebsite #designs li.music img,#fwtFreeWebsite #designs li.photography img {
+height:327px;
+width:230px;
+}
+#fwtFreeWebsite #designs li.personal img {
+height:327px;
+width:163px;
+}
+#fwtFreeWebsite #designs li.cooking img {
+height:327px;
+width:222px;
+}
+#fwtFreeWebsite #designs li a {
+color:#000;
+font-size:1.2em;
+font-weight:700;
+height:auto;
+padding:0;
+text-decoration:none;
+width:auto;
+}
+#fwtFreeWebsite #designs .border {
+background:url('../img/interface.gif') no-repeat 0 -112px;
+bottom:0;
+display:block;
+height:46px;
+left:-1px;
+position:absolute;
+width:960px;
+}
+#fwtFreeWebsite #features h3,#designs h3 {
+color:#000;
+font-family:arial;
+font-size:2.2em;
+font-weight:400;
+margin:0;
+padding:0 10px 10px;
+text-align:center;
+}
+#fwtFreeWebsite #designs h3 {
+color:#0098f6;
+padding-bottom:13px;
+}
+#fwtFreeWebsite .start-now {
+background:url('../img/interface.gif') no-repeat -470px 0;
+display:block;
+margin: 5px auto 7px 304px;
+width:350px;
+height:92px;
+position:absolute;
+*margin: 25px auto 7px 304px;
+}
+#fwtFreeWebsite .navigation a:hover,#fwtFreeWebsite .navigation a:active {
+color:#054c8a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    	#fwtFreeWebsite .header {
+			display:inline-block;
+			padding-top: 0;
+			width:100%;
+		}
+		#fwtFreeWebsite .header .fwttoplinks{}
+		#fwtFreeWebsite .header .fwttoplinks ul{
+			padding:2px 0 18px;
+		}
+		#fwtFreeWebsite .header .fwttoplinks ul li:first-child{
+			margin:0;
+		}
+		#fwtFreeWebsite .header .fwttoplinks ul li{
+			margin:0 0 0 20px;
+		}
+		#fwtFreeWebsite .header .fwttoplinks ul li a{
+			text-decoration:underline;
+			color:#3C4B52;
+			font-weight:normal;
+		}
+		#fwtFreeWebsite .header .fwttoplinks ul li a:hover{
+			color:#054C8A;
+		}
+		#fwtFreeWebsite #featured h2 {
+		    font-family: arial;
+		    font-size: 1.7em;
+		    font-weight: 400;
+		    height: 50px;
+		    line-height: 65px;
+		    margin: 0 0 10px;
+		    padding-left: 10px;
+		    text-transform: none;
+			color:#1e1e1e;
+			display:inline-block;
+			float:left;
+		}
+		#fwtFreeWebsite #featured a.more{
+			background: url('styles/custom/fwt/wix/interface/button-browse.png') no-repeat scroll 0 0 transparent;
+			display: block;
+			float: right;
+			height: 50px;
+			margin: 7px 15px 0 0;
+			padding: 0;
+			position: static;
+			right: 0;
+			text-indent: -99999px;
+			top: 0;
+			width: 119px;
+		}
+		#fwtFreeWebsite #featured a.more:hover{
+			background:url('styles/custom/fwt/wix/interface/button-browse.png') no-repeat;
+		}
+		#fwtFreeWebsite #featured {
+		   	background:url('styles/custom/fwt/wix/interface/bg-pattern.jpg');
+		    border-left: 1px solid #C0D7DF;
+		    border-right: 1px solid #C0D7DF;
+		    padding: 0 3px 10px;
+		    position: relative;
+		}
+		#fwtFreeWebsite #featured div{
+			background:url('styles/custom/fwt/wix/interface/bg-template.jpg') no-repeat;
+			padding:20px 0 13px;
+			overflow:hidden;
+		}
+		#fwtFreeWebsite #featured ul.templates {
+		    display: inline-block;
+		    list-style: none outside none;
+		    padding: 5px 0 0;
+			clear:both;
+		}
+		#fwtFreeWebsite #featured .checkbox {
+		    display: inline-block;
+		    list-style: none outside none;
+		    padding: 15px 0 0;
+		}
+		#fwtFreeWebsite #featured .checkbox li {
+		    float: left;
+		    font-family: arial;
+		    height: 18px;
+			font-size:15px;
+		    margin: 0 0 0 16px;
+		    padding-left: 16px;
+			text-indent: 6px;
+			line-height:20px;
+		}
+		#fwtFreeWebsite #featured .checkbox li.green {
+		    background:url('styles/custom/fwt/wix/interface/check.png') no-repeat;
+			margin-left: 20px;
+		}
+		#fwtFreeWebsite #featured .checkbox li.yellow {
+		    background:url('styles/custom/fwt/wix/interface/check.png') no-repeat 0 -20px;
+		}
+		#fwtFreeWebsite #featured .checkbox li.purple {
+		    background:url('styles/custom/fwt/wix/interface/check.png') no-repeat 0 -40px;
+		}
+		#fwtFreeWebsite #featured .checkbox li.blue {
+		    background:url('styles/custom/fwt/wix/interface/check.png') no-repeat 0 -60px;
+		}
+		#fwtFreeWebsite #features {
+		    border-left: 1px solid #C0D7DF;
+		    border-right: 1px solid #C0D7DF;
+		    font-family: arial;
+		    padding-bottom: 18px;
+			background:url('styles/custom/fwt/wix/interface/bg-features.jpg') no-repeat left top #fff;
+			min-height:240px;
+		}
+		#fwtFreeWebsite #features h3{
+			font-size: 34px;
+		    padding-bottom: 16px;
+		    padding-top: 26px;
+		}
+		#fwtFreeWebsite #features ul.details {
+			padding:0 25px;
+		}
+		#fwtFreeWebsite #features li:first-child {
+			margin:0;
+		}
+		#fwtFreeWebsite #features li {
+		    display: inline-block;
+		    height: auto;
+		    margin: 0 0 0 82px;
+		    padding: 0;
+		    width: auto;
+			text-align:center;
+		}
+		#fwtFreeWebsite #features img {
+		    border: 0 none;
+		    box-shadow: 0 0 0 transparent; -webkit-box-shadow: 0 0 0 transparent; -moz-box-shadow: 0 0 0 transparent; -khtml-box-shadow: 0 0 0 transparent;
+		    float: none;
+		    height: auto;
+		    width: auto;
+			margin-bottom: -8px;
+		}
+		#fwtFreeWebsite #features span {
+			display:block;
+			font-size:15px;
+			font-weight:bold;
+		}
+		#fwtFreeWebsite #designs {
+		    background-color: #FFFFFF;
+		    border-left: 1px solid #C0D7DF;
+		    border-right: 1px solid #C0D7DF;
+		    height: 267px;
+		    position: relative;
+		}
+		#fwtFreeWebsite #designs h3 {
+		    color: #0098F6;
+		    padding-bottom: 44px;
+			font-size:34px;
+		}
+		#fwtFreeWebsite #designs li a:first-child {
+			margin:0 0 5px;
+		}
+		#fwtFreeWebsite #designs li a {
+		    color: #000000;
+		    font-size: 1.2em;
+		    font-weight: 700;
+		    height: auto;
+		    padding: 0;
+		    text-decoration: none;
+		    width: auto;
+			outline:none;
+		}
+		#fwtFreeWebsite #designs img {
+		    border: 0 none;
+		    box-shadow: 0 0 0 transparent; -webkit-box-shadow: 0 0 0 transparent; -moz-box-shadow: 0 0 0 transparent; -khtml-box-shadow: 0 0 0 transparent;
+		    margin-bottom: 18px;
+		}
+		#fwtFreeWebsite .start-now {
+	   		margin: 9px auto 7px 304px;
+		}
+		#fwtFreeWebsite .body {
+		    border-bottom: 0 none;
+		    border-top: 0 none;
+		    margin-bottom: 113px;
+		    position: relative;
+		}
+
+/* --- login_bar.css --- */
+
+/** Login bar basics **/
+
+#loginBar
+{
+	color: rgb(5, 47, 77);
+background-color: #bbdbe7;
+border-bottom: 1px solid #65a5d1;
+position: relative;
+z-index: 1;
+
+}
+
+	#loginBar .pageContent
+	{
+		padding-top: 5px;
+		position: relative;
+		_height: 0px;
+	}
+
+	#loginBar a
+	{
+		color: rgb(5, 47, 77);
+text-decoration: underline;
+
+	}
+
+	#loginBar form
+	{
+		padding: 5px 0;
+margin: 0 auto;
+display: none;
+line-height: 20px;
+position: relative;
+width: 500px;
+
+	}
+	
+		#loginBar .xenForm .ctrlUnit,		
+		#loginBar .xenForm .ctrlUnit dt label
+		{
+			margin: 0;
+			border: none;
+		}
+	
+		#loginBar .xenForm .ctrlUnit dt
+		{
+			width: 215px;
+		}
+		
+		#loginBar .xenForm .ctrlUnit dd
+		{
+			position: relative;
+			width: 250px;
+		}
+
+	#loginBar .xenForm .ctrlUnit dd .textCtrl,
+	#loginBar .passwordOptions
+	{
+		width: 250px;
+		box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box;
+	}
+	
+	#loginBar .lostPassword
+	{
+		margin-top: 38px;
+		font-size: 11px;
+	}
+
+	#loginBar .lostPasswordLogin
+	{
+		font-size: 11px;
+	}
+	
+	#loginBar .rememberPassword
+	{
+		font-size: 11px;
+	}
+
+	#loginBar .textCtrl
+	{
+		color: rgb(5, 47, 77);
+background-color: white;
+border-color: rgb(5, 47, 77);
+
+	}
+	
+	#loginBar .textCtrl[type=text]
+	{
+		font-weight: bold;
+font-size: 18px;
+
+	}
+
+	#loginBar .textCtrl:-webkit-autofill /* http://code.google.com/p/chromium/issues/detail?id=1334#c35 */
+	{
+		background: white !important;
+		color: rgb(5, 47, 77);
+	}
+
+	#loginBar .textCtrl:focus
+	{
+		background-image: none;
+
+	}
+	
+	#loginBar input.textCtrl.disabled
+	{
+		color: white;
+background-color: rgb(5, 47, 77);
+border-style: dashed;
+border-color: white;
+
+	}
+	
+	#loginBar .button
+	{
+		min-width: 85px;
+		*width: 85px;
+	}
+	
+		#loginBar .button.primary
+		{
+			font-weight: bold;
+		}
+		
+/** changes when eAuth is present **/
+
+#loginBar form.eAuth
+{
+	width: 700px; /* normal width + 170px */
+}
+
+	#loginBar form.eAuth .ctrlWrapper
+	{
+		border-right: 1px dotted #176093;
+		margin-right: 200px;
+		box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box;
+	}
+
+	#loginBar form.eAuth #eAuthUnit
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+
+		#eAuthUnit li
+		{
+			margin-top: 10px;
+		}
+	
+			#eAuthUnit li a
+			{
+				width: 180px;
+				box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box;
+			}
+	
+/** handle **/
+
+#loginBar #loginBarHandle
+{
+	font-size: 11px;
+color: rgb(5, 47, 77);
+background-color: #bbdbe7;
+padding: 0 10px;
+margin-right: 20px;
+border-bottom-right-radius: 10px; -webkit-border-bottom-right-radius: 10px; -moz-border-radius-bottomright: 10px; -khtml-border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px; -webkit-border-bottom-left-radius: 10px; -moz-border-radius-bottomleft: 10px; -khtml-border-bottom-left-radius: 10px;
+position: absolute;
+right: 0px;
+bottom: -20px;
+text-align: center;
+z-index: 1;
+line-height: 20px;
+box-shadow: 0px 2px 5px #094E7F; -webkit-box-shadow: 0px 2px 5px #094E7F; -moz-box-shadow: 0px 2px 5px #094E7F; -khtml-box-shadow: 0px 2px 5px #094E7F;
+
+}
